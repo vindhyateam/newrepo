@@ -30,6 +30,9 @@
 		<uri
 			id="91C0AD75-F3AD-A1EF-BB44-327A22B9811C"
 		/>
+		<uri
+			id="00505601-1A96-A1F0-9F2F-80EE4508FB66"
+		/>
 	</BuildingBlocks>
 	<DBObject/>
 	<DisplayName/>
@@ -696,6 +699,123 @@
 				</Title>
 			</Title>
 		</TitleBuildingBlock>
+		<EmailBuildingBlock
+			type="com.cordys.entity.buildingblocks.email.EmailBuildingBlock"
+			typeVersion="CC3B6D68-6A37-4A70-B79F-D3F9-13CB329E"
+			RuntimeDocumentID="00505601-1A96-A1F0-9F2F-80EE45093B66">
+			<DocumentID>00505601-1A96-A1F0-9F2F-80EE4508FB66</DocumentID>
+			<Name>Email</Name>
+			<Description>Email</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2025-08-19T05:49:31.0</CreationDate>
+			<Notes/>
+			<Email>
+				<Email
+					type="com.cordys.entity.buildingblocks.email.Email"
+					typeVersion="B59CF123-2383-49B2-8C3E-D8F323D8F3F8"
+					RuntimeDocumentID="00505601-1A96-A1F0-9F2F-80EE4508BB66">
+					<DocumentID>00505601-1A96-A1F0-9F2F-80EE45087B66</DocumentID>
+					<Name>Email</Name>
+					<Description>Email</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2025-08-19T05:49:31.006</CreationDate>
+					<Notes/>
+					<AutoPushAttachmentsToContent>false</AutoPushAttachmentsToContent>
+					<BWSFolderLocToSaveAutoPushAttachments>Emails/Attachments</BWSFolderLocToSaveAutoPushAttachments>
+					<BuildingBlockTypeToChooseAttachment>None</BuildingBlockTypeToChooseAttachment>
+					<BuildingBlockTypeToSaveAttachment>Dont Save</BuildingBlockTypeToSaveAttachment>
+					<BuildingBlockTypeToSaveEmail>Dont Save</BuildingBlockTypeToSaveEmail>
+					<ContentFolderLocation></ContentFolderLocation>
+					<ContentFolderLocationForSaveEmail></ContentFolderLocationForSaveEmail>
+					<EmailConfiguration></EmailConfiguration>
+					<EmailConfigurationName></EmailConfigurationName>
+					<EmailMessageFileType>eml</EmailMessageFileType>
+					<PreventStoringAttachmentsOutsideBusinessWorkspace>false</PreventStoringAttachmentsOutsideBusinessWorkspace>
+					<SaveLocationOfEmailMessage>Emails/Messages</SaveLocationOfEmailMessage>
+					<UseLoggedInUserInFromAddress>false</UseLoggedInUserInFromAddress>
+					<BuildingBlock>
+						<uri
+							id="00505601-1A96-A1F0-9F2F-80EE4508FB66"
+						/>
+					</BuildingBlock>
+					<BuildingBlockTypeToChooseAttachmentFrom/>
+					<BuildingBlockTypeToSaveAttachmentTo/>
+					<BuildingBlockTypeToSaveEmailTo/>
+					<ContentFolderLocationForIncomingAttachment/>
+					<ContentFolderLocationForSaveEmailTo/>
+					<DisplayName/>
+					<DraftOrForwardEmailAttachmentPreviewLayout/>
+					<EmailAttachmentPreviewLayout/>
+					<EmailConfig>
+						<uri
+							id="00505601-1A96-A1F0-9F30-0D0C772DFB66"
+						/>
+					</EmailConfig>
+					<EmailContentLayout>
+						<uri
+							id="00505601-1A96-A1F0-9F30-0D0C77323B66"
+						/>
+					</EmailContentLayout>
+				</Email>
+			</Email>
+			<Entity>
+				<uri
+					id="91C0AD75-F3AD-A1EF-BB43-E1357DFE811C"
+				/>
+			</Entity>
+			<InlinedEntities/>
+			<Original/>
+			<OwnedActions>
+				<EmailAction
+					type="com.cordys.entity.buildingblocks.email.EmailAction"
+					RuntimeDocumentID="00505601-1A96-A1F0-9F2F-80EE45083B66">
+					<DocumentID>00505601-1A96-A1F0-9F2F-80EE4507FB66</DocumentID>
+					<Name>SendEmail</Name>
+					<Description>SendEmail</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2025-08-19T05:49:31.0</CreationDate>
+					<Notes/>
+					<ActionDisplayName></ActionDisplayName>
+					<ActionId>EE881B72B7174A419232BCBDD72914A8</ActionId>
+				</EmailAction>
+			</OwnedActions>
+			<Relationships>
+				<Relationship
+					type="com.cordys.entity.core.structure.relationship.Relationship"
+					typeVersion="17A97EEB-DDB4-477D-8C9F-C9238015F2A2"
+					RuntimeDocumentID="00505601-1A96-A1F0-9F2F-80EE4507BB66">
+					<DocumentID>00505601-1A96-A1F0-9F2F-80EE45077B66</DocumentID>
+					<Name>Emails</Name>
+					<Description>Emails</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2025-08-19T05:49:31.039</CreationDate>
+					<Notes/>
+					<ExposeForReuse>false</ExposeForReuse>
+					<HasFK>true</HasFK>
+					<MaxCardinality>-1</MaxCardinality>
+					<MinCardinality>0</MinCardinality>
+					<OwnsJoinTable>true</OwnsJoinTable>
+					<RelationshipType>ToChild</RelationshipType>
+					<RestrictDeleteTarget>false</RestrictDeleteTarget>
+					<RestrictUpdateTarget>false</RestrictUpdateTarget>
+					<BuildingBlock>
+						<uri
+							id="00505601-1A96-A1F0-9F2F-80EE4508FB66"
+						/>
+					</BuildingBlock>
+					<DisplayName/>
+					<ForeignKeyProperties/>
+					<Inverse/>
+					<Original/>
+					<ReferringProperties/>
+					<Target>
+						<uri
+							id="00505601-1A96-A1F0-9F2F-80EE4506FB66"
+						/>
+					</Target>
+				</Relationship>
+			</Relationships>
+		</EmailBuildingBlock>
 	</OwnedBuildingBlocks>
 	<ParentRelationship/>
 	<Supertype/>

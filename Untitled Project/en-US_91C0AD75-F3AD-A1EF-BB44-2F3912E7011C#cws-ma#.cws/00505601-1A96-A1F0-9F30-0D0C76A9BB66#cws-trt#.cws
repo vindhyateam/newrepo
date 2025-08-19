@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-1A96-A1F0-9F30-0D0C76A9FB66">
+	<DocumentID>00505601-1A96-A1F0-9F30-0D0C76A9BB66</DocumentID>
+	<Name>00505601-1A96-A1F0-9F30-0D0C76A9BB66</Name>
+	<Description>Sent Mail</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2025-08-19T05:49:31.029</CreationDate>
+	<Notes/>
+	<Text>Sent Mail</Text>
+	<Language>
+		<uri
+			id="91C0AD75-F3AD-A1EF-BB44-2F3912E6811C"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-1A96-A1F0-9F30-0D0C76A93B66"
+		/>
+	</TextIdentifier>
+</TranslatedText>
